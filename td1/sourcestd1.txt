@@ -1,0 +1,40 @@
+(********* Exercice  1  *********)
+ 
+;; Computes the factorial of the integer n
+(define (factorial n)
+  (if (<= n 1)
+    1
+    (* n (factorial (sub1 n)))))
+ 
+(********* Exercice  2  *********)
+ 
+- 2 1
+
+(+ (*) (+))
+
+(* (+ 2 5) ((* 3 4) (- 1 2)))
+
+(12 + (* 3 4))
+
+(+ 2 (* 5 (log (8))))
+
+(+ 1 2 3 4 5 6)
+
+(log -2)
+
+(define 3 (+ 2 1))
+ 
+(********* Exercice  3  *********)
+ 
+(********* Exercice  4  *********)
+ 
+(********* Exercice  5  *********)
+ 
+(carac-racines-trinome 1 2 -3) ;; -> "Two distinct real roots"
+(carac-racines-trinome 3 4 5)  ;; -> "Two complex conjugate roots"
+(carac-racines-trinome 1 -2 1) ;; -> "One real root of multiplicity 2"
+ 
+(********* Exercice  6  *********)
+ 
+(convert 666) ;; -> "1010011010"
+ 
